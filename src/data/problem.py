@@ -22,7 +22,7 @@ class Problem:
                      operations: int, 
                      sub_operations: int, 
                      cities: int, 
-                     distances_coef: float = 0.1, 
+                     distances_coef: float = 0.3, 
                      sheet_name: Optional[str] = None):
         
         if sheet_name is None:
